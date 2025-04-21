@@ -1,3 +1,7 @@
-body {
-
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(90, 184, 129);
+    color: rgb(154, 39, 165);
+    line-height: 1.8;
+    padding: 30px;
 }
