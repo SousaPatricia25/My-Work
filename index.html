@@ -3,68 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Patricia da Costa Sousa</h1>
-        <img src="IMG_20250111_212628~2.jpg" alt="Desenvolvedora Web Iniciante" width="150px" height="150px">
+        <img src="IMG_20250111_212628~2.jpg" alt="Desenvolvedora Web Iniciante" width="150px" height="150px" class="foto-centralizada">
         <p><strong>Desenvolvedora Web Iniciante</strong></p>
         <nav>
-            <ul>
-                <a href="Sobre">Sobre Mim</a>
-
-                <a href="Projetos">Projetos</a>
-
-                <a href="Disciplinas">Disciplinas em estudo GT 2.0</a>
-
-                <a href="O que tem">O que ainda tem pela frente</a>
-
-                <a href="Curiosidade">Curiosidade/Conselho</a>
-
-                <a href="Informe-se">Informe-se</a>
-
-                <a href="Meus Serviços">Meus Serviços</a>
-            </ul>
+            <a ref="Campo-Sobre">Sobre Mim</a>
+            <a ref="Campo-Redes">Minhas Redes Sociais</a>
+            <a ref="Campo-Projetos">Projetos</a>
+            <a ref="Campo-Curiosidade">Curiosidade/Conselho</a>
+            <a ref="Campo-Informe-se">Informe-se</a>
+            <a ref="Campo-Serviços">Meus Serviços</a>
         </nav>
     </header>
 </body>
     <main>
-        <h2>"Sobre Mim</h2>
-        <p>Sou formada em Investigação Forense e Perícia Criminal, sou graduanda em Geografia licenciatura e fazendo o curso de Desenvolvedor Full Stach pelo Geração Tech 2.0.</p>
-        <h2>Projetos</h2>
-        <p>Nenhum em andamento, mas espero ter a oportunidade.</p>
-        <h2>Disciplinas em estudo GT 2.0</h2>
-            <ul type="square">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>GitHub</li>
-                <li>Entre outros...</li>
-            </ul>
-        <h2> O que ainda tem pela frente</h2>
-            <ol>
-                <li>Lógica da Programação</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>Banco de Dados</li>
-                <li>Entre outros...</li>
-            </ol>
+       <section>
+            <h2>Sobre Mim</h2>
+            <p>Sou formada em Investigação Forense e Perícia Criminal, sou graduanda em Geografia licenciatura e fazendo o curso de Desenvolvedor Full Stach pelo Geração Tech 2.0.</p>
+       </section>
+       <article>
+            <h2>Minhas Redes Sociais</h2>
+            <a href="https://www.instagram.com/patycosta_98/">patycosta_98 - Instagram</a>
+            <a href="https://www.linkedin.com/in/patr%C3%ADcia-sousa-027692198/">Patrícia Sousa - LinkedIn</a>
+       </article>
         <section>
-            <h2>Curiosidade/Conselho</h2>
-            <p>Já fiz/faço muitos cursos que são um pouco aleatórios. Se você tem medo de fazer um curso que não tem muito a ver com sua área, meu conselho é: arrisque-se, muitas vezes é nessa que você se encontra. </p>
+            <h2>Projetos</h2>
+            <p>Nenhum em andamento, mas espero ter a oportunidade.</p>
         </section>
         <article>
-        <h2>Minhas Redes Sociais</h2>
-        <p>Instagram: patycosta_98</p>
-        <p></p>
+            <h2>Curiosidade/Conselho</h2>
+            <p>Já fiz/faço muitos cursos que são um pouco aleatórios. Se você tem medo de fazer um curso que não tem muito a ver com sua área, meu conselho é: arrisque-se, muitas vezes é nessa que você se encontra. </p>
         </article>
             <form>
                 <section class="subtitle">
                         <h3>Informe-se</h3>
-                       
- <label for="campo_WhatsApp">WhatsApp</label>
+                        <label for="campo_WhatsApp">WhatsApp</label>
                         <input id="campo_WhatsApp" type="text" placeholder="Digite seu Número" required>
                         <label for="campo_Email">Email</label>
                         <input id="campo_Email" type="text" placeholder="Digite seu email" required>
@@ -72,7 +50,6 @@
                                 Enviar
                             </button>
                 </section>
-                    <article>
                         <section>
                             <h3>Meus Serviços</h3>
                             <label for="Serviços">Serviços Prestados</label>
@@ -82,7 +59,6 @@
                                     <option value="Site Institucional">Site Institucional</option>
                                 </select>
                         </section>
-                    </article>
             </form>
     </main>
     <body>
